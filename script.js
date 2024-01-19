@@ -9,3 +9,14 @@ function back(){
     var resultado = document.getElementById('visor').innerHTML;
     document.getElementById('visor').innerHTML = resultado.substring(0,resultado.length -1);
 } 
+function calcular(){
+    var resultado = document.getElementById('visor').innerHTML;
+    if (resultado) {
+        var resultadoCalculado = eval(resultado);
+        if (resultadoCalculado){
+            visor.innerHTML = resultadoCalculado;
+        }
+    } else {
+        visor.innerHTML = "";
+    }
+}
