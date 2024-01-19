@@ -6,8 +6,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: linear-gradient(45deg, black,white);
-
+    background: linear-gradient(45deg,black,gray,white);
 }
 .calculadora{
     display: flex;
